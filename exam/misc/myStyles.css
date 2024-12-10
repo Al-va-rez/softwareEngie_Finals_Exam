@@ -1,0 +1,197 @@
+/* --- MAIN FONT FAMILY --- */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+/* --- NAVBAR --- */
+.navbar_Content {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.navbar_Content div {
+    margin-right: 25px;
+}
+.below_Navbar {
+    padding-left: 20px;
+}
+
+
+
+
+/* --- TABLE DESIGN --- */
+table {
+    margin-top: 25px;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+tr:hover {
+    background-color: #c9c9c9;
+}
+th, td {
+    padding: 15px 12px;
+    text-align: center;
+    border-bottom: 1px solid #a4a4a4;
+}
+th.table_Name {
+    padding: 15px 12px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.contact td {
+    text-align: left;
+}
+.user td {
+    text-align: right;
+}
+.messenger textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: 800px;
+    resize: none;
+}
+.long_Text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+
+/* --- UI DESIGN --- */
+body.login {
+    background-color: darkslategray;
+}
+body.register {
+    background-color: darkslateblue;
+}
+body.admin {
+    background-color: #d9ae70;
+}
+body.hr {
+    background-color: #9E7682;
+}
+body.applicant {
+    background-color: #f9f4eb;
+}
+
+
+div.contain_Table {
+    background-color: white;
+    border: 3px solid;
+    width: 80%;
+    padding: 25px 50px;
+    margin: auto;
+    margin-top: 50px;
+}
+div.main {
+    background-color: white;
+    border: 3px solid;
+    width: fit-content;
+    padding: 25px 50px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+h1.center_Form {
+    text-align: center;
+}
+h2.center_Form {
+    text-align: center;
+}
+
+
+form.center_Form {
+    padding: 15px 0px 30px;
+}
+
+
+.inp_Textarea {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+.inp_Textarea label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 5px;
+}
+.inp_Textarea textarea {
+    margin-top: 25px;
+    padding: 10px;
+    width: 525px;
+    height: 100px;
+    resize: none;
+}
+
+
+
+
+/* --- BUTTONS (look and feel) --- */
+button {
+    border-radius: 4px;
+    background-color: #bad1b1;
+    color: black;
+    border: 2px solid #555555;
+    padding: 2px 5px;
+}
+button:hover {
+    background-color: #F7DF97;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.link_Btn {
+    border-radius: 4px;
+    background-color: #bad1b1;
+    color: black;
+    border: 2px solid #555555;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+.link_Btn:hover {
+    background-color: #F7DF97;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn_Edit {
+    background-color: #d8e9f3;
+}
+.btn_Del {
+    background-color: #f3bbb1;
+}
+.msg_Funcs {
+    margin-top: 30px;
+}
+.msg_Funcs .write {
+    background-color: #d5ddf3;
+}
+.msg_Funcs .switch {
+    background-color: #f3d5ec;
+}
+
+
+
+
+/* --- DELETE BUTTON (position) --- */
+.delete_Container {
+    background-color: white;
+    position: relative;
+    border-style: solid;
+    height: 450px;
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.deleteBtn {
+    position: absolute;
+    margin: 0px 0px 20px 25px;
+    left: 0;
+    bottom: 0;
+}
